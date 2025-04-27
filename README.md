@@ -48,29 +48,30 @@ cat < file1
 
 cat < file2
 ## OUTPUT
-
+![alt text](img/catfile2.png)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-  
+  ![alt text](img/3.png)
 comm file1 file2
  ## OUTPUT
-
+![alt text](img/4.png)
 diff file1 file2
 ## OUTPUT
-
+![alt text](img/5.png)
 
 #Filters
 
 ### Create the following files file11, file22 as follows:
-
-cat > file11
 ```
+cat > file11
+
 Hello world
 This is my world
 ^d
 ```
+
 cat > file22
 ```
 1001 | Ram | 10000 | HR
@@ -93,14 +94,15 @@ cut -d "|" -f 1 file22
 cut -d "|" -f 2 file22
 ## OUTPUT
 
-
-cat < newfile 
 ```
+cat < newfile 
+
 Hello world
 hello world
 ^d
 ````
 cat > newfile 
+```
 Hello world
 hello world
  
