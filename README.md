@@ -22,8 +22,9 @@ Testing the commands for the desired output.
 
 # COMMANDS:
 ### Create the following files file1, file2 as follows:
-cat > file1
 ```
+cat > file1
+
 chanchal singhvi
 c.k. shukla
 s.n. dasgupta
@@ -43,23 +44,22 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 123409.png>)
+![alt text](img/catfile1.png)
 
 cat < file2
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 123426.png>)
+
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
-  ![alt text](<Screenshot 2025-04-19 123435.png>)
+  
 comm file1 file2
  ## OUTPUT
-![alt text](<Screenshot 2025-04-19 123447.png>)
- 
+
 diff file1 file2
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 123457.png>)
+
 
 #Filters
 
@@ -82,18 +82,17 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 123521.png>)
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 123528.png>)
+
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 123539.png>)
+
 
 cat < newfile 
 ```
