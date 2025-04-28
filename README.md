@@ -61,7 +61,7 @@ diff file1 file2
 ## OUTPUT
 ![alt text](img/5.png)
 
-#Filters
+## Filters
 
 ### Create the following files file11, file22 as follows:
 ```
@@ -84,15 +84,17 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-
-
+![alt text](img/6.png)
+```
 cut -d "|" -f 1 file22
 ## OUTPUT
 
-
+![alt text](img/7(1).png)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+
+![alt text](img/8(1).png)
 
 ```
 cat < newfile 
@@ -109,39 +111,41 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124105.png>)
+![alt text](img/9(2).png)
 
-grep hello newfile 
+grep hello newfile
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124123.png>)
+![alt text](img/10(1).png)
 
 
 grep -v hello newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124154.png>)
+![alt text](img/11(1).png)
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124225.png>)
+![alt text](img/12(1).png)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124252.png>)
+![alt text](img/13(1).png)
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124327.png>)
+![alt text](img/14o.png)
+![alt text](img/14oo.png)
 
 grep -w -n world newfile   
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 124411.png>)
+
+![alt text](img/15(1).png)
 
 cat < newfile 
 ```
@@ -165,63 +169,63 @@ Linux is best in this World
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124528.png>)
+![alt text](img/16.png)
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124548.png>)
+![alt text](img/17.png)
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124606.png>)
+![alt text](img/18.png)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124625.png>)
+![alt text](img/19.png)
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
 
-![alt text](<Screenshot 2025-04-19 124737.png>)
+![alt text](img/20.png)
 
 egrep '(World$)' newfile 
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 124802.png>)
+![alt text](img/21.png)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 124831.png>)
+![alt text](img/22.png)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124851.png>)
+![alt text](img/23.png)
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124916.png>)
+![alt text](img/24.png)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 124950.png>)
+![alt text](img/25.png)
+
 egrep l{2} newfile
 
 ## OUTPUT
 
-
-![alt text](<Screenshot 2025-04-19 125014.png>)
+![alt text](img/26.png)
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-![alt text](<Screenshot 2025-04-19 125032.png>)
+![alt text](img/27.png)
 
 cat > file23
 ```
