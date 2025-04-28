@@ -96,19 +96,21 @@ cut -d "|" -f 2 file22
 
 ![alt text](img/8.png)
 
-```
-cat < newfile 
 
+cat < newfile 
+````
 Hello world
 hello world
 ^d
 ````
 cat > newfile 
-```
+````
 Hello world
 hello world
- 
+^d
+````
 grep Hello newfile 
+
 ## OUTPUT
 
 ![alt text](img/9.png)
