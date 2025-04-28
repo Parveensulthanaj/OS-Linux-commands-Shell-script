@@ -111,41 +111,41 @@ hello world
 grep Hello newfile 
 ## OUTPUT
 
-![alt text](img/9(2).png)
+![alt text](img/9.png)
 
 grep hello newfile
 ## OUTPUT
 
-![alt text](img/10(1).png)
+![alt text](img/10.png)
 
 
 grep -v hello newfile 
 ## OUTPUT
 
-![alt text](img/11(1).png)
+![alt text](img/11.png)
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
-![alt text](img/12(1).png)
+![alt text](img/12.png)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
-![alt text](img/13(1).png)
+![alt text](img/13.png)
 
 
 grep -R ubuntu /etc
 ## OUTPUT
 
-![alt text](img/14o.png)
-![alt text](img/14oo.png)
+![alt text](img/14.png)
+
 
 grep -w -n world newfile   
 ## OUTPUT
 
-![alt text](img/15(1).png)
+![alt text](img/15.png)
 
 cat < newfile 
 ```
@@ -244,85 +244,82 @@ cat > file23
 sed -n -e '3p' file23
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125135.png>)
+![alt text](img/28.png)
 
 sed -n -e '$p' file23
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125211.png>)
+![alt text](img/29.png)
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125232.png>)
+![alt text](img/30.png)
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125251.png>)
+![alt text](img/31.png)
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125336.png>)
+![alt text](img/32.png)
 
 sed -n -e '1,5p' file23
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125355.png>)
+![alt text](img/33.png)
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125412.png>)
+![alt text](img/34.png)
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 125430.png>)
+![alt text](img/35.png)
 
 
 seq 10 
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125627.png>)
+![alt text](img/36.png)
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125654.png>)
+![alt text](img/37.png)
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125719.png>)
+![alt text](img/38.png)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 125741.png>)
+![alt text](img/39.png)
 
 
 seq 2 | sed '2i hello'
 ## OUTPUT
-![alt text](<Screenshot 2025-04-19 125806.png>)
+![alt text](img/40.png)
 
 seq 10 | sed '2,9c hello'
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 125839.png>)
+![alt text](img/41.png)
+
 sed -n '2,4{s/^/$/;p}' file23
 ## OUTPUT
-
-
-![alt text](<Screenshot 2025-04-19 125904.png>)
+![alt text](img/42.png)
 sed -n '2,4{s/$/*/;p}' file23
+## OUTPUT
+![alt text](img/43.png)
 
-
-
-![alt text](<Screenshot 2025-04-19 125925.png>)
-
-#Sorting File content
+# Sorting File content
 cat > file21
 ```
 1001 | Ram | 10000 | HR
