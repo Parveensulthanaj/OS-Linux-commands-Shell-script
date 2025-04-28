@@ -333,7 +333,7 @@ cat > file21
 sort file21
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 130014.png>)
+![alt text](img/44.png)
 
 cat > file22
 ```
@@ -347,14 +347,14 @@ cat > file22
 uniq file22
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 130136.png>)
+![alt text](img/45.png)
 
-#Using tr command
+## Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 
- ![alt text](<Screenshot 2025-04-19 130157.png>)
+ ![alt text](img/46.png)
  
 cat < urllist.txt
 ```
@@ -372,19 +372,18 @@ www. mrcet.... com
 cat urllist.txt | tr -d ' '
  ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 130319.png>)
+![alt text](img/47.png)
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 130345.png>)
+![alt text](img/48.png)
 
-#Backup commands
+## Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
 
-
-![alt text](<Screenshot 2025-04-19 145151.png>)
+![alt text](img/49.png)
 
 mkdir backupdir
  
@@ -393,22 +392,23 @@ mv backup.tar backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
-![alt text](<Screenshot 2025-04-19 145348.png>)
+![alt text](img/50.png)
 
 tar -xvf backup.tar
 ## OUTPUT
+![alt text](img/51.png)
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
 
- ![alt text](<Screenshot 2025-04-19 145659.png>)
+ ![alt text](img/52.png)
  
 gunzip backup.tar.gz
 ## OUTPUT
 
- ![alt text](<Screenshot 2025-04-19 145720.png>)
+ ![alt text](img/53.png)
  
 # Shell Script
 ```
@@ -421,7 +421,7 @@ chmod 755 my-script.sh
 
  
 
-![alt text](<Screenshot 2025-04-19 132530.png>)
+![alt text](img/54.png)
 
 cat << stop > herecheck.txt
 ```
